@@ -1,2 +1,1 @@
-#  [Start Bootstrap](http://startbootstrap.com/) - [Grayscale](http://startbootstrap.com/template-overviews/grayscale/)
-Personal site, made using the [Grayscale](http://startbootstrap.com/template-overviews/grayscale/) one page HTML theme with [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+Personal site, made using the [Grayscale](http://startbootstrap.com/template-overviews/grayscale/) one-page HTML theme with [Bootstrap](http://getbootstrap.com/). Original template/theme created by [Start Bootstrap](http://startbootstrap.com/).
