@@ -24,6 +24,10 @@
   padding: 18px;
 }
 
+.modal-overlay p {
+  margin-bottom: 36px;
+}
+
 .modal-img img {
   height: 340px;
   width: auto;
@@ -32,8 +36,8 @@
 .modal-img {
   width: 100%;
   text-align: center;
-  margin-top: 12px;
-  margin-bottom: 12px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .modal-overlay .ok-heading {
@@ -59,7 +63,6 @@
 .wd-link {
   color: #5194C2;
 }
-
 
 .close {
   position: absolute;
