@@ -1,6 +1,4 @@
 About
 =====
 
-This is the source code behind my personal website. It was made using the [Grayscale](http://startbootstrap.com/template-overviews/grayscale/) one-page HTML theme with [Bootstrap](http://getbootstrap.com/). Original template/theme created by [Start Bootstrap](http://startbootstrap.com/).
-
-You can find my site at [http:/michaelpeng.github.io](http:/michaelpeng.github.io).
+This is the source code for my personal website at [https://michaelpeng.github.io](https://michaelpeng.github.io). I built it as my final project for the Fall 2016 iteration of the awesome [Web Design Decal](http://wdd.io) at UC Berkeley.

@@ -1,164 +1,132 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
-
-    <title>Michael Peng</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/grayscale.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-play-circle"></i>  <span class="light">Michael</span> Peng
-                </a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#download">Projects</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+<html>
+    <head>
+        <title>Michael | Home</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700|PT+Sans" rel="stylesheet">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="assets/js/script.js"></script>
+        <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div id="master-overlay">
         </div>
-        <!-- /.container -->
-    </nav>
-
-    <!-- Intro Header -->
-    <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Hello, I'm Michael!</h1>
-                        <p class="intro-text">I'm an undergraduate EECS student at Cal, constantly curious, and hope to impact and change the world for the better!</p>
-                        <a href="#about" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
+        <div id="name-section" class="section">
+            <div class="heading">Michael Peng</div>
+            <div class="subheading">Software Engineer, EECS Major @ Cal</div>
+        </div>
+        <div id="about-section" class="section">
+            <div class="section-heading">About Me</div>
+            <div class="section-text">
+                <p>Hi there, I'm Michael! I'm a senior undergraduate EECS student at the <a href="http://www.berkeley.edu/">University of California, Berkeley</a>, and I strive to learn and grow every day. I think it's a really exciting time for high tech; I'm thrilled to be a junior developer during a time when there's both so much to learn and so much to be done.</p>
+                <p>When I'm not puzzling over software engineering challenges, you might find me playing the piano, geeking out over various doohickies (casual audiophile, and interested in tech gadgets), or keeping up with sports, <i>avec et sans</i> prefacing e.</p>
+            </div>
+        </div>
+        <div id="work-section" class="section">
+            <div class="section-heading">Work & Experience</div>
+            <div class="tile-container">
+                <div id="ok-tile" class="tile">
+                    <div id="ok-img" class="tile-img">
+                        <img src="assets/img/okta-icon.jpg">
+                    </div>
+                    <div id="ok-overlay" class="tile-overlay">
+                        <div>Okta</div>
+                        <div class="tile-overlay-subtext">Summer 2016 Intern</div>
+                        <div class="tile-overlay-subtext">UI Engineer, MFA/Auth Team</div>
+                    </div>
+                </div>
+                <div id="pg-tile" class="tile">
+                    <div id="pg-img" class="tile-img">
+                        <img src="assets/img/pathgather-icon.svg">
+                    </div>
+                    <div id="pg-overlay" class="tile-overlay">
+                        <div>Pathgather</div>
+                        <div class="tile-overlay-subtext">Summer 2015 Intern</div>
+                        <div class="tile-overlay-subtext">Backend Rails Engineer</div>
+                    </div>
+                </div>
+                <div id="wd-tile" class="tile">
+                    <div id="wd-img" class="tile-img">
+                        <img src="assets/img/wdd-icon.png">
+                    </div>
+                    <div id="wd-overlay" class="tile-overlay">
+                        <div>Web Design Decal</div>
+                        <div class="tile-overlay-subtext">Fall 2016 Student</div>
+                        <div class="tile-overlay-subtext">Frontend Engineering & Design!</div>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
-
-    <!-- About Section -->
-    <section id="about" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>About Me</h2>
-                <p>I'm currently a senior EECS (electrical engineering and computer science) major at the University of California, Berkeley. I'm still exploring what I want to do with my life, and I'm just trying to learn and grow as much as I can every day.</p>
-                <p>I enjoy classical piano, love both cats and dogs despite tragic lifelong allergies, and am a firm coffee abstainer.</p>
-                <p><a href="https://www.dropbox.com/s/jcrrh5p1jqzkkqf/Michael%20Peng--Resume.pdf?dl=0" class="btn btn-default btn-lg">Resume</a>
+        <div id="contact-section" class="section">
+            <div class="section-heading">Contact Me</div>
+            <div class="section-text"><p>
+                I'm currently not looking for any career opportunities, but thanks for visiting my site!
+                <br>
+                <div class="contact-links">
+                    <a href="https://www.dropbox.com/s/7whnxrujs7dev8f/Michael%20Peng--Resume.pdf?dl=0">Resume</a>
+                    <br>
+                    <a href="mailto:michaelpeng@berkeley.edu">Email</a>
+                    <br>
+                    <a href="https://www.google.com/maps/place/Berkeley,+CA/">Berkeley, CA</a>
+                </div>
+            </p></div>
+            <div class="sm-icons">
+                <span class="sm"><a href="https://github.com/michaelpeng" target="_blank">
+                    <i class="fa fa-github fa-lg sm"></i>
+                </a></span>
+                <span class="sm"><a href="https://linkedin.com/in/michaelpeng17" target="_blank">
+                    <i class="fa fa-linkedin fa-lg sm"></i>
+                </a></span>
+                <span class="sm"><a href="https://twitter.com/Aeriskies" target="_blank">
+                    <i class="fa fa-twitter fa-lg sm"></i>
+                </a></span>
             </div>
         </div>
-    </section>
-
-    <!-- Download Section -->
-    <section id="download" class="content-section text-center">
-        <div class="download-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Projects</h2>
-                    <p>You may find some of my projects on my Github page. You can contact me directly regarding any specifics or unlisted projects.</p>
-                    <a href="https://github.com/michaelpeng" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+        <div id="modal-section">
+            <div id="ok-modal" class="modal-overlay">
+                <i class="fa fa-times fa-2x button close"></i>
+                <div class="heading ok-heading">Okta</div>
+                <div class="subheading">UI Engineer on the MFA/Authentication Team (Summer 2016)</div>
+                <div class="modal-img"><img src="assets/img/okta-picture.jpg"></div>
+                <div class="section-text">
+                    <div class="ok-heading section-heading">Always On</div>
+                    <p><a class="ok-link" href="https://www.okta.com/">Okta</a> is the foundation for secure connections between people and technology. To that end, Okta is "Always On": Okta not only has <a class="ok-link" href="https://trust.okta.com/">astounding uptime</a>, but a company culture of being dialed-in, focused, and excited to contribute every day. During Summer 2016, I had the pleasure of working on the MFA/Authentication team, which implements methods/factors of authentication into Okta, policy rules and enforcement, third-party authentication integrations, and data-analytics-driven access control flows.</p>
+                    <div class="ok-heading section-heading">UI Engineering @ Okta</div>
+                    <p>As an intern on the MFA/Auth team, I had the pleasure of working with unbelievably talented and experienced engineers as a UI engineer. Coming into the internship I had very limited experience with frontend development, so it was a great experience jumping right into it and growing in that area. The core UI team has created an in-house UI framework called Courage, built on Backbone.js, with Require.js for dependency management, which we leverage to build the frontend components for new features. I contributed to Courage as well, adding addional Playground demos, fixing bugs on existing features, and adding small additional features where convenient. During my internship, my main project was the completion of the UI for the SMS Localization feature, for which I migrated incomplete legacy JSP code onto the Courage framework, updated the existing UI, and added support for translations of SMS notification templates.</p>
+                    <div class="ok-heading section-heading">Okta 2016 Intern Hackathon: We Won!</div>
+                    <p>Every year, Okta holds an intern hackathon! After a lot of hard work from every team, and a great deal of hacking over the weekend, my team got first place (and nifty LIFX IoT lightbulbs to boot!) with our project: Suspicious User Detection System. As the sole UI engineer on my team, I built the entirety of the frontend for our hackathon project, which was also where most of code and logic lived for our project. In order to be able to incorporate our hack idea more seamlessly into the product, we built everything off of the existing codebase, and I used Courage to build the frontend. Events examined for suspicious activity were returned via queries against a database using the in-house Sage API. The final visual result was the integration of a pop-up modal notification directly into the current single sign-on main page for endusers. Shoutouts to Joseph, Jason, and Kenton for being awesome team members. Always Believe.</p>
+                </div>
+            </div>
+            <div id="pg-modal" class="modal-overlay">
+                <i class="fa fa-times fa-2x button close"></i>
+                <div class="heading pg-heading">Pathgather</div>
+                <div class="subheading">Backend Engineer w/ Rails (Summer 2015)</div>
+                <div class="modal-img"><img src="assets/img/pg-picture.jpg"></div>
+                <div class="section-text">
+                    <div class="pg-heading section-heading">Aggregate, Empower, Motivate</div>
+                    <p><a class="pg-link" href="https://www.pathgather.com/">Pathgather</a> is a delightful enterprise learning platform designed to be valued by both employees and and organizations. Pathgather essentially provies a simple, beautiful frontend that allows employees to get off individual corporate learning management systems, usually ugly and meager in content, and integrate multiple LMSs, MOOCs, and vendor. In doing so, Pathgather unlocks the massive, untapped potential for organizations and their employees to adopt a culture of learning and self-enrichment.</p>
+                    <div class="pg-heading section-heading">Backend Engineering Intern @ PG</div>
+                    <p>As the solo backend engineering intern at Pathgather during summer 2015, I had my first professional experience as a software developer, and had the change to work on the Ruby on Rails backend stack of the product. It was an enormous learning experience, and I went from feeling totally lost and astounded by the abilities of the Pathgather engineers, to feeling really great about development (and still totally astounded by PG's awesome engineers)! I shipped my first commit within the first week, got to know and contribute to our very own Slack bot, and of course, I had the change to make a real impact on Pathgather's product. From building and maintaning the TED Talks and Safari Books public course integrations, to implementing a recurring worker to remind users, to writing a Chrome Extension to allow users to share webpages directly to their respective Pathgather instances, it was all a fantastic learning experience.</p>
+                    <div class="pg-heading section-heading">A True PG Learning Experience</div>
+                    <p> Despite feeling overwhelmed initially, I'll forever be grateful to everyone at Pathgather: to Chris, for mentoring me a great deal, gently showing me the ropes (Postgres forever), and helping me crush it; to Guntars, for your help as well and for showing you can pull off ye olde model-to-dev career path; to Neville, for your insight and advice on programming and beyond (I had the time of the life, and I owe it all to you); to Jamie, for your no-nonsense attitude toward development and life; to Dan for being a super sharp and friendly fellow intern (on the frontend side); to BJ and John for being ever-friendly, driven business devs; to Mansi for also being a superb customer success manager; and (last but not least) to Eric, for being a transparent, thoughtful CEO. I could go on and on, but I'll keep it short and sweet. Thanks for taking a chance on me, guys.</p>
+                </div>
+            </div>
+            <div id="wd-modal" class="modal-overlay">
+                <i class="fa fa-times fa-2x button close"></i>
+                <div class="heading wd-heading">Web Design Decal</div>
+                <div class="subheading">Excited Student (Fall 2016)</div>
+                <div class="modal-img"><img src="assets/img/wd-picture.png"></div>
+                <div class="section-text">
+                    <div class="wd-heading section-heading">Confidence to Code, Design, and Create</div>
+                    <p>UC Berkeley's <a class="wd-link" href="http://wdd.io/">Web Design Decal</a> is a great DeCal (class run by students, for students) taught each semester with lots of love and caffeine. It's a tremendous class taught by enormously talented instructors, and I was impressed bigly. Admission is extremely competitive, as instruction both on the design and on the coding and is both impeccable, and students come out with a one-of-a-kind introduction to frontend web development.</p>
+                    <div class="wd-heading section-heading">Woohoo!</div>
+                    <p>As a Fall 2016 student of the Web Design Decal, I had lots of fun learning design principles, which really can make or break a site. As the saying goes, as a developer: if you have a good backend, good, that's your job; if you have a good frontend, great, people are actually going to want to use your site because it's functional, easy-to-use, and beautiful. Granted, scalable systems, data integrity, and uptime are all critical as well, but I'm just being tongue-in-cheek on this one. In any event, it was also great opportunity to fill in all of my gaps of knowledge regarding the fundamentals of HTML, CSS, and jQuery as well.</p>
+                    <div class="wd-heading section-heading">Made With Love in Berkeley</div>
+                    <p>This site was made as my final project for the Web Design Decal, and it truly was a great chance to demonstrate some of the techniques and patterns I've picked up. Coming into college, a lot of students have disdain for frontend development for some reason (perhaps because it's different from academic CS, and doesn't necessarily involve abstruse algorithms everywhere), but as a senior leaving Berkeley, I came to appreciate even more the principles of design and frontend programming. It genuinely into the "both a science and an art" bucket, and I'm glad I got to experience the class. Thanks for teaching this the Web Design Decal.</p>
                 </div>
             </div>
         </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Me</h2>
-                <p>You can reach me at my email <a href="mailto:michaelpeng@berkeley.edu">here</a>!</p>
-
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="https://twitter.com/Aeriskies" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/michaelpeng17" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                    </li>
-                    <li>
-                        <a href="https://plus.google.com/100993855413221326707/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- Map Section -->
-    <!-- <div id="map"></div> -->
-
-    <!-- Footer -->
-    <footer>
-        <div class="container text-center">
-            <p>Copyright &copy; Michael Peng 2016</p>
-        </div>
-    </footer>
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJwnDhup_56gCTM4GdpK5Hvv_hO-AJlbE&sensor=false"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/grayscale.js"></script>
-
-</body>
-
+    </body>
 </html>
